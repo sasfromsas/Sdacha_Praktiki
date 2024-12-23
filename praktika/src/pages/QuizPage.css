@@ -1,0 +1,10 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100dvh;
+    max-width: 1000px;
+    /* background-color: #74595925; */
+}

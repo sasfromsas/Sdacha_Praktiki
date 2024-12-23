@@ -1,0 +1,60 @@
+.quiz-container{
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    width: 95%;
+}
+
+.QuestionName{
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+
+.QuestionsBox{
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+}
+
+.OneQuestion{
+    border: 1px solid rgba(128, 128, 128, 0.418);
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    font-size: 18px;
+    font: 'Raleway';
+    line-height: 150%;
+    cursor: pointer;
+}
+
+
+.inputRadio{
+    min-width: 20px;
+    min-height: 20px;
+}
+
+
+@media screen and (width < 770px) {
+    .QuestionsBox{
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+/* @media screen and (width < 1040px) {
+
+    .quiz-container{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+} */

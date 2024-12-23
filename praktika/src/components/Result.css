@@ -1,0 +1,65 @@
+.result-container{
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    /* margin-top: 50PX; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    max-width: 600px;
+}
+
+
+.repeatButton{
+    margin-top: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    background-color: #ffffff13;
+    border: 0;
+    cursor: pointer;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+
+.ResultName{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+
+.shareText{
+    font-size: 14px;
+    font-weight: 750;
+}
+
+
+
+.share-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+  
+.share-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:3px;
+  border: 0;
+  text-decoration: none;
+  padding: 3px 10px;
+  border-radius: 50px;
+  font-size: 12px;
+  background-color: #ffffff13;
+  cursor: pointer;
+}
+
+
+
+  
